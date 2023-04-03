@@ -1,8 +1,8 @@
-Insurance Management Platform
+# Insurance Management Platform
 
-Structure:
+## Structure:
 
-Packages:
+### Packages:
 Model- contains entity/model classes
 EntryDto- contains dtos for entities
 Enums- contains enums for entities
@@ -13,21 +13,21 @@ Repositories- contains repositories for model classes/entities
 Exceptions- contains all exceptions
 ExceptionController- contains exception handler
 
-Database used- MySQL
+### Database used- MySQL
 
 Model classes contain all the related fields.
 
-Clients-
+## Clients-
     ClientController contains the rest api endpoint for the operations related to client.
     ClientServiceImpl contains all the business logic for the client.
     ClientRepository is repository interface for all the operations related to database and client
 
-Insurance Policy-
+## Insurance Policy-
     InsurancePolicyController  contains the rest api endpoint for the operations related to InsurancePolicy.
     InsurancePolicyServiceImpl contains all the business logic for the InsurancePolicy.
     InsurancePolicyRepository is repository interface for all the operations related to database and InsurancePolicy.
 
-Claims-
+## Claims-
     ClaimController contains the rest api endpoint for the operations related to Claim.
     ClaimServiceImpl contains all the business logic for the Claim.
     ClaimRepository is repository interface for all the operations related to database and Claim
